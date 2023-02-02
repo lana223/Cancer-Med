@@ -1,0 +1,66 @@
+body{
+    background: url('skin.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+}
+.input-page1{
+    width: 1000px;
+    height: 550px;
+    background-color: #b3c0e4;
+    opacity: 0.7;
+    position: absolute;
+    left: 10%;
+    top: 18px;
+}
+.input-page1 #custombtn {
+    width: 159px;
+    height: 50px;
+    display: block;
+    border-radius: 25px;
+    color: #ffffff;
+    top: 73%;
+    left: 41%;
+    position: absolute;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: #024881
+
+}
+.input-page1 .info {
+    position: absolute;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+.input-page1 .info h3{
+    color: #1d5d8c;
+    margin: 8px 0px 33px -18px
+}
+.input-page1  .info p {
+    color: #1d5d8c;
+    margin: 0px 0px 0px -7px
+}
+.input-page1 .result {
+    color: #ffffff;
+    background-color: #024881;
+    width: 330px;
+    height: 180px;
+    border-radius: 25px;
+    position: absolute;
+    left: 33%;
+    top: 36%;
+    text-align: center;
+}
+
+.input-page1 .result p {
+    margin-top: 26%;
+    font-size: 23px;
+
+    font-family: serif;
+}

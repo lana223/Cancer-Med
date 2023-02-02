@@ -1,0 +1,54 @@
+body{
+    background: url('Male_Doctor_Patient_1296x728-header-1.webp') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+}
+.container {
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+}
+.container .form{
+    background: #a9b6b7a3;
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box;
+    width: 64%;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+#txtarea {
+    text-align: center;
+    padding-top: 5%;
+    width: 50%;
+    resize: none;
+    border-radius: 10px;
+    margin: 23px 0px 0px 23%;
+    background-color: #B7B3AE;
+    opacity: .6;
+}
+#btn{
+    background-color: #303030b5;
+    border-color: black;
+    color: white;
+    border-color: black;
+    width: 27%;
+    height: 46px;
+    border-radius: 20px;
+    font-size: 16px;
+    position: relative;
+    left: 34%;
+    
+}
+#btn:hover{
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.2s ease-out 0s;
+    box-shadow: 0 10px 25px rgba(21, 22, 22, 0.5);
+    font-size:20px
+}
+h3{
+    font-size: 27px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breast ' patients'</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="page5.css">
+    <link rel="stylesheet" type="text/css" href="./Style/Style/bootstrap/assets/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="bootstrap\assets\dist\css\bootstrap.min.css"> -->
+    
+
+   
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="./page5.css">
+    <!-- <link rel="stylesheet" type="text/css" href="Style/style2.css"> -->
+
+
+</head>
+<body>
+   <div class="container">
+
+       <div class="form">
+        <h3 id="txt" > Detect if you have Breast Cancer by answering the following question ... </h3>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1" style="font-weight: bold; font-size:17px;">Mean radius</label>
+            <textarea class="form-control" id="op1" rows="2" cols="50"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1" style="font-weight: bold; font-size:17px;">Mean texture</label>
+            <textarea class="form-control" id="op2" rows="2"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1" style="font-weight: bold; font-size:17px;">Mean perimeter</label>
+            <textarea class="form-control" id="op3" rows="2"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1" style="font-weight: bold; font-size:17px;">Mean area</label>
+            <textarea class="form-control" id="op4" rows="2"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1" style="font-weight: bold; font-size:17px;">Mean smoothness</label>
+            <textarea class="form-control" id="op5" rows="2"></textarea>
+          </div>
+      </div>
+      <textarea id="txtarea" rows="2" cols="20" disabled></textarea>
+                <a id="btn" type="submit" name="" class="btn btn-primary btn-xl" onclick="previewFile()" style="font-weight: bold; font-size:17px; color: black;" >start</a>
+   </div>
+        
+    <script src="./script.js"></script>
+    <script src="./Style/Style/axios-1.x/dist/axios.min.js"></script> 
+    <script src="./Style/Style/bootstrap/assets/dist/js/jquery.min.js"></script>
+    <script src="./Style/Style/bootstrap/assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

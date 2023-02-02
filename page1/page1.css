@@ -1,0 +1,65 @@
+body{
+    background: url('brain.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+}
+.input-page1{
+    width: 1000px;
+    height: 550px;
+    background-color: #0A1117;
+    opacity: .8;
+    position: absolute;
+    left: 10%;
+    top: 18px;
+}
+.input-page1 #custombtn {
+    width: 159px;
+    height: 50px;
+    display: block;
+    border-radius: 25px;
+    color: black;
+    top: 75%;
+    left: 45%;
+    position: absolute;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+.input-page1 .result {
+    color: black;
+    background-color: #fff;
+    width: 330px;
+    height: 180px;
+    border-radius: 25px;
+    position: absolute;
+    left: 36%;
+    top: 36%;
+    text-align: center;
+}
+.input-page1 .info {
+    position: absolute;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+.input-page1 .info h3{
+    color: #fff;
+    margin: 8px 0px 33px -18px
+}
+.input-page1  .info p {
+    color: #fff;
+    margin: 0px 0px 0px -7px
+}
+.input-page1 .result p {
+    margin-top: 26%;
+    font-size: 23px;
+  
+    font-family: serif;
+    color: #0A1117;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Tumor</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+
+    <div class="input-page1">
+       <div class="info">
+        <h3>Brain Tumor</h3>
+        <p>Verify if you have Brain Tumor by uploading your radiography image : </p>
+       </div>
+       
+     <input  id="defultbtn" type="file" onchange="encodeImageFileAsURL(this)" hidden />
+     <button onclick = "defultBtnActive()" id="custombtn"> choose a file </button>
+     <div class="result"> <p id="txt"> please input Down </p></div>
+     
+      
+    </div>
+   
+
+    <script src="page1.js"> </script>
+    <script src="axios-1.x/dist/axios.min.js"></script> 
+  
+</body>
+</html>
